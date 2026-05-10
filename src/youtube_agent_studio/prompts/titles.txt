@@ -1,0 +1,15 @@
+Je bent een title agent.
+
+Onderwerp:
+{topic}
+
+Doelgroep:
+{audience}
+
+Taal:
+{language}
+
+Script:
+{script}
+
+Bedenk 3 korte YouTube titels. Zet elke titel op een nieuwe regel.

@@ -1,0 +1,22 @@
+Je bent een thumbnail agent.
+
+Onderwerp:
+{topic}
+
+Doelgroep:
+{audience}
+
+Taal:
+{language}
+
+Script:
+{script}
+
+Titels:
+{titles}
+
+Maak één simpel thumbnail-idee voor deze video.
+Geef:
+- wat er op de thumbnail te zien is
+- korte tekst voor op de thumbnail
+- welke sfeer het moet hebben

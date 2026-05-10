@@ -1,0 +1,107 @@
+{
+  "topic": "AI tools voor studenten",
+  "audience": "beginners",
+  "tone": "duidelijk en informeel",
+  "language": "Nederlands",
+  "length": "kort: ongeveer 3 tot 5 minuten",
+  "context": "",
+  "plan": "Doel: laten zien hoe AI tools voor studenten praktisch en begrijpelijk wordt.\nKijkersvraag: hoe begin ik met AI tools voor studenten zonder dat het te ingewikkeld wordt?\nLet op: houd het simpel, geef voorbeelden en benoem één belangrijke valkuil.",
+  "idea": "Een korte video over AI tools voor studenten met 3 praktische tips en één herkenbaar voorbeeld. Dit past bij beginners omdat het niet te technisch wordt.",
+  "research_questions": [
+    "Wat is het belangrijkste probleem rond AI tools voor studenten?",
+    "Welk voorbeeld maakt AI tools voor studenten concreet voor beginners?",
+    "Welke valkuil moet de kijker vermijden?"
+  ],
+  "research": "Research ronde 1:\n- Begin met een herkenbaar probleem rond AI tools voor studenten.\n- Houd de uitleg praktisch en vermijd lange theorie.\n- Geef één voorbeeld dat de kijker meteen begrijpt.\n- Benoem ook kort een valkuil of iets waar de kijker op moet letten.",
+  "script": "Intro: Je wilt beginnen met AI tools voor studenten, maar je weet misschien niet waar je moet starten. In deze video laat ik drie simpele stappen zien die je meteen kunt gebruiken. Bijvoorbeeld: je kiest één klein probleem binnen AI tools voor studenten en maakt daar een duidelijke eerste stap van.\n\nPunt 1: Leg kort uit waarom AI tools voor studenten relevant is voor de kijker.\nPunt 2: Geef een concreet voorbeeld dat de kijker direct kan toepassen.\nPunt 3: Sluit af met een simpele checklist of volgende stap.\n\nAfsluiting: AI tools voor studenten hoeft niet ingewikkeld te zijn. Begin klein, test wat werkt en blijf kritisch.",
+  "feedback": "{\"decision\": \"approved\", \"score\": 8, \"feedback\": [\"Het script is duidelijk genoeg voor een eerste versie.\"], \"required_changes\": []}",
+  "titles": [
+    "AI tools voor studenten: simpel uitgelegd",
+    "3 praktische tips over AI tools voor studenten",
+    "Zo begin je met AI tools voor studenten"
+  ],
+  "thumbnail_idea": "Thumbnail idee: een persoon die duidelijk met AI tools voor studenten bezig is, met simpele iconen eromheen.\nTekst op thumbnail: AI tools voor studenten\nSfeer: helder, praktisch en niet te druk.",
+  "research_rounds": 1,
+  "script_rounds": 2,
+  "review_rounds": 2,
+  "approved": true,
+  "final_decision": "approved",
+  "review_iterations": [
+    {
+      "round_number": 1,
+      "decision": "needs_script_changes",
+      "score": 6,
+      "feedback": [
+        "De intro mag actiever en er mist een concreet voorbeeld."
+      ],
+      "action": "rewrite script with review feedback"
+    },
+    {
+      "round_number": 2,
+      "decision": "approved",
+      "score": 8,
+      "feedback": [
+        "Het script is duidelijk genoeg voor een eerste versie."
+      ],
+      "action": "stop: script approved"
+    }
+  ],
+  "steps": [
+    {
+      "agent": "PlannerAgent",
+      "action": "created_plan",
+      "note": "Globale aanpak gemaakt."
+    },
+    {
+      "agent": "IdeaAgent",
+      "action": "created_idea",
+      "note": "Video-idee gemaakt."
+    },
+    {
+      "agent": "ResearchQuestionAgent",
+      "action": "created_research_questions",
+      "note": "Researchvragen gemaakt."
+    },
+    {
+      "agent": "ResearchAgent",
+      "action": "added_research",
+      "note": "Researchronde uitgevoerd."
+    },
+    {
+      "agent": "ScriptAgent",
+      "action": "created_or_updated_script",
+      "note": "Eerste scriptversie."
+    },
+    {
+      "agent": "ReviewAgent",
+      "action": "reviewed_script",
+      "note": "Decision: needs_script_changes, score: 6/10"
+    },
+    {
+      "agent": "ScriptAgent",
+      "action": "created_or_updated_script",
+      "note": "De intro mag actiever en er mist een concreet voorbeeld.; Maak de intro sterker; Voeg één voorbeeld toe"
+    },
+    {
+      "agent": "ReviewAgent",
+      "action": "reviewed_script",
+      "note": "Decision: approved, score: 8/10"
+    },
+    {
+      "agent": "Workflow",
+      "action": "loop_finished",
+      "note": "Review-agent keurde het script goed."
+    },
+    {
+      "agent": "TitleAgent",
+      "action": "created_titles",
+      "note": "3 titels gemaakt."
+    },
+    {
+      "agent": "ThumbnailAgent",
+      "action": "created_thumbnail_brief",
+      "note": "Thumbnail-brief gemaakt."
+    }
+  ],
+  "created_at": "2026-05-10T17:54:46.247727+00:00"
+}

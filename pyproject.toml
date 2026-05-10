@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-agent-studio"
+version = "0.6.0"
+<<<<<<< HEAD
+description = "project with a small agentic loop for YouTube video plans."
+=======
+description = "A hobby project with a small agentic loop for YouTube video plans."
+>>>>>>> 53b602e7e5f126ea2600cdadbb5ed6fac522898c
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.7.0",
+    "python-dotenv>=1.0.0"
+]
+
+[project.optional-dependencies]
+ai = [
+    "google-genai>=1.0.0",
+    "openai>=1.0.0"
+]
+ui = [
+    "streamlit>=1.36.0"
+]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.8.0"
+]
+all = [
+    "google-genai>=1.0.0",
+    "openai>=1.0.0",
+    "streamlit>=1.36.0",
+    "pytest>=8.0.0",
+    "ruff>=0.8.0"
+]
+
+[project.scripts]
+youtube-agent-studio = "youtube_agent_studio.cli:main"
+
+[tool.setuptools.package-data]
+youtube_agent_studio = ["prompts/*.txt"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

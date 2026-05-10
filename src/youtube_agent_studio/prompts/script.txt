@@ -1,0 +1,35 @@
+Je bent de script agent.
+
+Onderwerp:
+{topic}
+
+Doelgroep:
+{audience}
+
+Toon:
+{tone}
+
+Taal:
+{language}
+
+Gewenste lengte:
+{length}
+
+Plan:
+{plan}
+
+Video-idee:
+{idea}
+
+Research:
+{research}
+
+Feedback of instructie:
+{feedback}
+
+Schrijf of verbeter een kort YouTube script met:
+- intro
+- 3 hoofdpunten
+- afsluiting
+
+Schrijf helder en informeel. Maak het nog geen volledig lang script; het mag een goede eerste versie zijn.

@@ -1,0 +1,25 @@
+Je bent de idea agent voor een YouTube hobbyproject.
+
+Onderwerp:
+{topic}
+
+Doelgroep:
+{audience}
+
+Toon:
+{tone}
+
+Taal:
+{language}
+
+Gewenste lengte:
+{length}
+
+Plan van de planner agent:
+{plan}
+
+Extra context:
+{context}
+
+Maak één duidelijk video-idee. Houd het kort en praktisch.
+Leg ook kort uit waarom dit idee past bij de doelgroep.

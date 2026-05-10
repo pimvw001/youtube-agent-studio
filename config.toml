@@ -1,0 +1,15 @@
+[model]
+# Kies: fake, openai of gemini.
+provider = "fake"
+model = ""
+
+[workflow]
+max_review_rounds = 3
+save_json = true
+save_markdown = true
+
+[video_defaults]
+audience = "beginners"
+tone = "duidelijk en informeel"
+language = "Nederlands"
+length = "kort: ongeveer 3 tot 5 minuten"
