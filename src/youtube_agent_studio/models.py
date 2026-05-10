@@ -9,7 +9,8 @@ class ReviewResult(BaseModel):
     """Structured output van de ReviewAgent.
 
     Dit maakt de agnetic loop minder fragiel dan alleen vrije tekst.
-    De LLM kan alsnog rommelige output geven, daarom staat de fallback-parser    """
+    De LLM kan alsnog rommelige output geven, daarom staat de fallback-parser   
+    """
 
     decision: ReviewDecision = "approved"
     score: int = Field(default=7, ge=1, le=10)
