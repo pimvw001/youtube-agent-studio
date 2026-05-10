@@ -5,11 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "youtube-agent-studio"
 version = "0.6.0"
-<<<<<<< HEAD
 description = "project with a small agentic loop for YouTube video plans."
-=======
-description = "A hobby project with a small agentic loop for YouTube video plans."
->>>>>>> 53b602e7e5f126ea2600cdadbb5ed6fac522898c
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
