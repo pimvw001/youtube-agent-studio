@@ -16,7 +16,7 @@ from youtube_agent_studio.state import VideoState
 class VideoWorkflow:
     """Een kleine agentic workflow voor een YouTube video-plan.
 
-    De workflow Het idee is :
+    Het idee is :
     - agents delen state;
     - de review-agent mag bepalen wat de volgende stap is;
     - de loop stopt na een maximum aantal rondes.
